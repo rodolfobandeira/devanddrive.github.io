@@ -14,3 +14,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+#logo {
+  width: 400px;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+
+#logo canvas {
+  display: block;
+  touch-action: pan-y;
+}
